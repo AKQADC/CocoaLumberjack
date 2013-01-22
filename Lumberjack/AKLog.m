@@ -27,7 +27,10 @@
     //Set the formatting
     AKLogFormatter *logFormatter = [[AKLogFormatter alloc] init];
     [[DDTTYLogger sharedInstance] setLogFormatter:logFormatter];
-    
+}
+
++ (void)test
+{
     DDLogError(@"Error");
     DDLogWarn(@"Warning");
     DDLogNetworkRequest(@"Request");
