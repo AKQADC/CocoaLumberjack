@@ -44,6 +44,6 @@ static const int ddLogLevel = LOG_LEVEL_OFF;
 @interface AKLog : NSObject
 
 + (void)initializeColors;
-+ (void)test;
++ (void)testColors;
 
 @end

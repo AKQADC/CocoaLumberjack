@@ -29,7 +29,7 @@
     [[DDTTYLogger sharedInstance] setLogFormatter:logFormatter];
 }
 
-+ (void)test
++ (void)testColors
 {
     DDLogError(@"Error");
     DDLogWarn(@"Warning");
